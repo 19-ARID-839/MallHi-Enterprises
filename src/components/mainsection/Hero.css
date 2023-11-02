@@ -68,14 +68,23 @@
 /* Small Devices (Tablets) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles for tablets */
+  .hamburger {
+    display: none;
+  }
 }
 
 /* Medium Devices (Laptops and Desktops) */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   /* Styles for laptops and smaller desktops */
+  .hamburger {
+    display: none;
+  }
 }
 
 /* Large Devices (Large Desktops and Wide Screens) */
 @media only screen and (min-width: 1441px) {
+  .hamburger {
+    display: none;
+  }
   /* Styles for large desktops and wide screens */
 }
