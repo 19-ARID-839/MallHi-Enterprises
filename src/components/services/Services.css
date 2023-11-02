@@ -1,0 +1,32 @@
+.main--container {
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+.heading--1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 97.5%; /* 39px */
+  letter-spacing: 0.1rem;
+}
+.heading--1 span {
+  color: var(--Primary, #1fa25d);
+}
+.fleet--text {
+  max-width: 60%;
+  margin: 0 auto;
+  color: var(--gray-text, #9b9b9b);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 97.5%; /* 15.6px */
+  letter-spacing: 0.64px;
+}

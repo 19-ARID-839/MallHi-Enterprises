@@ -1,0 +1,52 @@
+.main---container-hero {
+  height: 100vh;
+  margin-bottom: 5rem;
+}
+.main---container-hero {
+  display: flex;
+}
+.hero--conatiner--1 {
+  max-width: 40%;
+  margin-left: 9rem;
+  margin-top: 10rem;
+}
+.heading--hero {
+  margin: 0;
+}
+.heading--hero span {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #1fa25d;
+  display: block;
+}
+.heading--hero p {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: white;
+}
+.hero---text1 p {
+  margin-right: 1.2rem;
+
+  margin-top: 1.3rem;
+  line-height: 20px;
+  text-align: justify;
+  color: var(--WHITE, #fff);
+}
+.social--hero {
+  display: flex;
+  color: white;
+}
+.social--hero p {
+  margin-top: 0.2rem;
+  margin-right: 0.8rem;
+  font-size: 1.5rem;
+}
+/*             */
+.hero--container--2 {
+}
+.hero--container--2 img {
+  margin-top: 5rem;
+  height: 30rem;
+  margin-left: 10rem;
+}

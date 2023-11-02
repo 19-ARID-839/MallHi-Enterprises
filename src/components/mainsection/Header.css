@@ -1,0 +1,53 @@
+.navbar-container {
+  display: flex;
+}
+/*  1 COntainer */
+.navbar-container-1 {
+  margin-left: 2rem;
+  margin-top: 1.7rem;
+}
+.font-mall img {
+}
+/*   2) Link container is inside container-2 */
+.navbar-container-2 {
+  display: flex;
+  margin-top: 2rem;
+}
+.navbar-container-links {
+  display: flex;
+  margin-left: 14rem;
+  margin-right: 8rem;
+  margin-top: 0.7rem;
+}
+.navbar-container-links p a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: white;
+}
+a :visited {
+  text-decoration: underline solid green;
+}
+/*    Third Container */
+.navbar-container-3 {
+  display: flex;
+  margin-right: 1rem;
+}
+.phone {
+  margin-right: 2rem;
+  margin-top: 2.5rem;
+  color: wheat;
+}
+.button--nav {
+  margin-top: 1.9rem;
+}
+.bt-nav {
+  padding: 10px 10px;
+  border-radius: 50px;
+  background-color: #1fa25d;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

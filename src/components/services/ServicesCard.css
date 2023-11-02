@@ -1,0 +1,29 @@
+.main-conatiner-services-card {
+  max-width: 90%;
+  margin: 0 auto;
+  width: 45%;
+  margin-bottom: 2rem;
+}
+.card--1 {
+  display: flex;
+}
+.title-descri {
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+}
+.card--title {
+  margin-left: 1rem;
+}
+.card-description p {
+  text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.aw {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
