@@ -56,11 +56,15 @@ a :visited {
 /* Extra Small Devices (Phones) */
 @media only screen and (max-width: 600px) {
   /* Styles for phones */
+  .main-hamburger {
+    position: fixed;
+    top: 38px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the margin from the right edge as needed */
+    z-index: 999;
+  }
   .hamburger {
     color: white;
     font-size: 3rem;
-    margin-left: 16rem;
-    margin-top: 2rem;
   }
   .navbar-container-2 {
     display: none;
