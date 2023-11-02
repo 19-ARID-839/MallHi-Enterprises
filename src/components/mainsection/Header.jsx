@@ -1,9 +1,10 @@
-import React from "react";
-//
+import React, { useState } from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
 import { BiPhoneCall } from "react-icons/bi";
 import Group34 from "../../assets/Group34.svg";
 import "./Header.css";
 const Header = () => {
+  const [toggle, setISToggle] = useState("False");
   return (
     <>
       <div className="navbar-container">
@@ -41,6 +42,9 @@ const Header = () => {
           </div>
           <div className="button--nav">
             <button className="bt-nav">BOOK NOW</button>
+          </div>
+          <div className="hamburger">
+            <RxHamburgerMenu />
           </div>
         </div>
       </div>

@@ -51,3 +51,31 @@
   height: 30rem;
   margin-left: 10rem;
 }
+.hamburger {
+  color: white;
+  font-size: 2rem;
+}
+/* Extra Small Devices (Phones) */
+@media only screen and (max-width: 600px) {
+  .navbar-container-2 {
+    display: none;
+  }
+  .navbar-container-3 {
+    display: none;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+}
+
+/* Medium Devices (Laptops and Desktops) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for laptops and smaller desktops */
+}
+
+/* Large Devices (Large Desktops and Wide Screens) */
+@media only screen and (min-width: 1441px) {
+  /* Styles for large desktops and wide screens */
+}
