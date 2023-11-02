@@ -30,3 +30,52 @@
   line-height: 97.5%; /* 15.6px */
   letter-spacing: 0.64px;
 }
+@media only screen and (max-width: 600px) {
+  /* Styles for phones */
+  .main--container {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+  .heading--1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 97.5%; /* 39px */
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .heading--1 span {
+    color: var(--Primary, #1fa25d);
+  }
+  .fleet--text {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    color: var(--gray-text, #9b9b9b);
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.5%; /* 15.6px */
+    letter-spacing: 0.64px;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Medium Devices (Laptops and Desktops) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+}
+
+/* Large Devices (Large Desktops and Wide Screens) */
+@media only screen and (min-width: 1441px) {
+}

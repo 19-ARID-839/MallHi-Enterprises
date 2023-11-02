@@ -12,7 +12,7 @@ function App() {
       <FleetTop />
       <Cards />
       <Services />
-      {/* <ServicesCard /> */}
+      <ServicesCard />
     </>
   );
 }

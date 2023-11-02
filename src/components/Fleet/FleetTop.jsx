@@ -27,6 +27,7 @@ const FleetTop = () => {
           <button className="bt">MERCEDES</button>
           <button className="bt">BMW</button>
           <button className="bt">KIA</button>
+          <button className="bt">ATLAS</button>
         </div>
       </div>
     </>

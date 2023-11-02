@@ -32,3 +32,55 @@
   line-height: 97.5%; /* 15.6px */
   letter-spacing: 0.64px;
 }
+@media only screen and (max-width: 600px) {
+  /* Styles for phones */
+  .Products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .dis {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .title-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  .rating-icons {
+    fill: var(--Primary, #1fa25d);
+  }
+  .ico {
+    margin-top: 1rem;
+
+    fill: var(--Primary, #1fa25d);
+  }
+  .card-profile {
+    display: flex;
+  }
+  .card-profile p {
+    margin-right: 3rem;
+  }
+  .card-description p {
+    color: var(--gray-text, #9b9b9b);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.5%; /* 15.6px */
+    letter-spacing: 0.64px;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Medium Devices (Laptops and Desktops) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+}
+
+/* Large Devices (Large Desktops and Wide Screens) */
+@media only screen and (min-width: 1441px) {
+}
