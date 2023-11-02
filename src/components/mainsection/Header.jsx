@@ -43,9 +43,9 @@ const Header = () => {
           <div className="button--nav">
             <button className="bt-nav">BOOK NOW</button>
           </div>
-          <div className="hamburger">
-            <RxHamburgerMenu />
-          </div>
+        </div>
+        <div className="hamburger">
+          <RxHamburgerMenu />
         </div>
       </div>
     </>
