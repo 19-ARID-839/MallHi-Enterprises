@@ -3,7 +3,7 @@ import React from "react"; // Add this import statement
 import { BsFacebook, BsYoutube } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import hero2 from "../../assets/hero2.png";
-
+//
 import "./Hero.css";
 
 const Hero = () => {

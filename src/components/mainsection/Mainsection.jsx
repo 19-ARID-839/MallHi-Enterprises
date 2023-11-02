@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Hero from "./Hero";
+//
 import "./main.css";
 const Mainsection = () => {
   return (
