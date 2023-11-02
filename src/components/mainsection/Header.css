@@ -36,7 +36,7 @@ a :visited {
 .phone {
   margin-right: 2rem;
   margin-top: 2.5rem;
-  color: wheat;
+  color: white;
 }
 .button--nav {
   margin-top: 1.9rem;
@@ -56,6 +56,10 @@ a :visited {
 /* Extra Small Devices (Phones) */
 @media only screen and (max-width: 600px) {
   /* Styles for phones */
+  .close {
+    font-size: 1.5rem;
+    color: white;
+  }
   .main-hamburger {
     display: flex;
     justify-content: flex-end;
@@ -73,6 +77,39 @@ a :visited {
   }
   .navbar-container-3 {
     display: none;
+  }
+  /*                                                         */
+
+  .navbar-container-links--1 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-container-links--1 p a {
+    margin-right: 2rem;
+    text-decoration: none;
+
+    color: white;
+  }
+  .phone--1 {
+    margin-top: 0.2rem;
+    color: white;
+  }
+  .button--nav--1 {
+    margin-top: 0.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.4rem;
+    border-radius: 50px;
+    background-color: #1fa25d;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .bt-nav--1 {
+    color: black;
   }
 }
 
