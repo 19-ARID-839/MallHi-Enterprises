@@ -8,6 +8,7 @@
 }
 .title-rating {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
 }
@@ -44,6 +45,7 @@
   }
   .title-rating {
     display: flex;
+    margin-left: 1rem;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.5rem;
