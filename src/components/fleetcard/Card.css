@@ -1,6 +1,8 @@
 .Products {
   display: flex;
   flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
 }
 .dis {
   max-width: 70%;
