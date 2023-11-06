@@ -1,9 +1,7 @@
 .navbar-container {
   display: flex;
 }
-.close {
-  display: none;
-}
+
 /*                                   */
 /*  1 Container */
 .navbar-container-1 {
