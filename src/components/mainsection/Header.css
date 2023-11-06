@@ -1,8 +1,11 @@
 .navbar-container {
   display: flex;
 }
-/*  */
-/*  1 COntainer */
+.close {
+  display: none;
+}
+/*                                   */
+/*  1 Container */
 .navbar-container-1 {
   margin-left: 2rem;
   margin-top: 1.7rem;
@@ -88,7 +91,63 @@ a :visited {
   .navbar-container-links--1 p a {
     margin-right: 2rem;
     text-decoration: none;
+    color: white;
+  }
+  .phone--1 {
+    margin-top: 0.2rem;
+    color: white;
+  }
+  .button--nav--1 {
+    margin-top: 0.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.4rem;
+    border-radius: 50px;
+    background-color: #1fa25d;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .bt-nav--1 {
+    color: black;
+  }
+}
+@media screen and (max-width: 767px), (max-width: 607) {
+  /* Styles for phones */
+  .close {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .main-hamburger {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    width: 100%; /* Span the full width of the line */
+    align-items: center; /* Vertically center the icon */
+    margin-top: 0px;
+  }
+  .hamburger {
+    color: white;
+    font-size: 3rem;
+  }
+  .navbar-container-2 {
+    display: none;
+  }
+  .navbar-container-3 {
+    display: none;
+  }
+  /*                                                         */
 
+  .navbar-container-links--1 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-container-links--1 p a {
+    margin-right: 0rem;
+    text-decoration: none;
     color: white;
   }
   .phone--1 {
@@ -113,26 +172,191 @@ a :visited {
   }
 }
 
-/* Small Devices (Tablets) */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Styles for tablets */
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-container {
+    display: flex;
+  }
+  .close {
+    display: none;
+  }
+  .main-hamburger {
+    display: none;
+  }
   .hamburger {
     display: none;
+  }
+  /*                                   */
+  /*  1 Container */
+  .navbar-container-1 {
+    margin-left: 1rem;
+    margin-top: 1.7rem;
+  }
+  .font-mall img {
+  }
+  /*   2) Link container is inside container-2 */
+  .navbar-container-2 {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .navbar-container-links {
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 0.2rem;
+    margin-top: 0.7rem;
+  }
+  .navbar-container-links p a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  a :visited {
+    text-decoration: underline solid green;
+  }
+  /*    Third Container */
+  .navbar-container-3 {
+    display: flex;
+    /* display: none; */
+    margin-right: 0.5rem;
+    margin-left: 0;
+  }
+  .phone {
+    margin-right: 1rem;
+    margin-top: 2.5rem;
+    color: white;
+  }
+  .phone p {
+    display: inline;
+  }
+  .button--nav {
+    margin-top: 1.9rem;
   }
 }
-
-/* Medium Devices (Laptops and Desktops) */
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  /* Styles for laptops and smaller desktops */
+/* laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar-container {
+    display: flex;
+  }
+  .close {
+    display: none;
+  }
+  .main-hamburger {
+    display: none;
+  }
   .hamburger {
     display: none;
+  }
+  /*                                   */
+  /*  1 Container */
+  .navbar-container-1 {
+    margin-left: 2rem;
+    margin-top: 1.7rem;
+  }
+  .font-mall img {
+  }
+  /*   2) Link container is inside container-2 */
+  .navbar-container-2 {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+  }
+  .navbar-container-links {
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 1rem;
+    margin-top: 0.7rem;
+  }
+  .navbar-container-links p a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: white;
+  }
+  a :visited {
+    text-decoration: underline solid green;
+  }
+  /*    Third Container */
+  .navbar-container-3 {
+    display: flex;
+    /* display: none; */
+    margin-right: 1rem;
+    margin-left: 0;
+  }
+  .phone {
+    margin-right: 1rem;
+    margin-top: 2.5rem;
+    color: white;
+  }
+  .phone p {
+    display: inline;
+  }
+  .button--nav {
+    margin-top: 1.9rem;
   }
 }
-
-/* Large Devices (Large Desktops and Wide Screens) */
-@media only screen and (min-width: 1441px) {
+/* Styles for screens larger than 1200px (e.g., large desktops) */
+@media screen and (min-width: 1200px) {
+  .navbar-container {
+    display: flex;
+  }
+  .close {
+    display: none;
+  }
+  .main-hamburger {
+    display: none;
+  }
   .hamburger {
     display: none;
   }
-  /* Styles for large desktops and wide screens */
+  /*                                   */
+  /*  1 Container */
+  .navbar-container-1 {
+    margin-left: 4rem;
+    margin-top: 1.7rem;
+  }
+  .font-mall img {
+  }
+  /*   2) Link container is inside container-2 */
+  .navbar-container-2 {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .navbar-container-links {
+    display: flex;
+    margin-left: 12rem;
+    margin-right: 0.2rem;
+    margin-top: 0.7rem;
+  }
+  .navbar-container-links p a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: white;
+  }
+  a :visited {
+    text-decoration: underline solid green;
+  }
+  /*    Third Container */
+  .navbar-container-3 {
+    display: flex;
+    /* display: none; */
+    margin-right: 0.5rem;
+    margin-left: 4rem;
+  }
+  .phone {
+    margin-right: 1rem;
+    margin-top: 2.5rem;
+    color: white;
+  }
+  .phone p {
+    display: inline;
+  }
+  .button--nav {
+    margin-top: 1.9rem;
+  }
 }

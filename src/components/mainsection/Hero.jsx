@@ -20,7 +20,7 @@ const Hero = () => {
             <p>
               Unmatched Wheels, Unforgettable Journeys. Your Reliable Ride
               Awaits Rent a Car, Embrace Convenience, and Explore with
-              Confidence. Mallhi Transport: Where Travel Dreams Come True !
+              Confidence. Mallhi Transport: Where Travel Dreams Come True
             </p>
           </div>
           <div className="social--hero">

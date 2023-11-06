@@ -27,10 +27,10 @@ const Header = () => {
               <a href="#service">SERVICES</a>
             </p>
             <p>
-              <a href="#about">ABOUT US</a>
+              <a href="#about">ABOUT</a>
             </p>
             <p>
-              <a href="#contact">CONTACT US</a>
+              <a href="#contact">CONTACT</a>
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Header = () => {
           <div className="phone">
             <p>
               <BiPhoneCall />
-              +92 333 0000111
+              +92333111
             </p>
           </div>
           <div className="button--nav">
