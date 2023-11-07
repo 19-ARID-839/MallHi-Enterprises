@@ -1,0 +1,134 @@
+.about-main-conatiner-1 {
+  width: 60%;
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+  margin-top: 3rem;
+}
+.about-main-conatiner-1 p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 97.5%; /* 39px */
+  letter-spacing: 1.6px;
+}
+.about-main-conatiner-1 span {
+  color: var(--Primary, #1fa25d);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 97.5%;
+  letter-spacing: 1.6px;
+}
+.about-main-container-2 {
+  width: 60%;
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+  margin-top: 0.8rem;
+}
+.about-main-container-2 p {
+  color: var(--gray-text, #9b9b9b);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 97.5%; /* 19.5px */
+  letter-spacing: 0.8px;
+}
+.about-card {
+  border-radius: 10px;
+  background: var(--black, #000);
+}
+.about-name {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 97.5%; /* 19.5px */
+  letter-spacing: 0.8px;
+}
+.about-description {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 97.5%; /* 15.6px */
+  letter-spacing: 0.64px;
+}
+.about-main-container-3 {
+  max-width: 45%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.about-image img {
+  margin-top: 2rem;
+}
+.about-image,
+.about-name,
+.about-rating {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-description p {
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: justify;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+.main-conatiner-31 {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for phones */
+
+  .about-main-container-3 {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+  }
+  .main-conatiner-31 {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .about-image img {
+    margin-top: 0.8rem;
+  }
+  .about-image,
+  .about-name,
+  .about-rating {
+    margin-top: 0.6rem;
+  }
+  .about-description p {
+    margin-top: 0.7rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px), (max-width: 607) {
+}
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+/* laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+/* Styles for screens larger than 1200px (e.g., large desktops) */
+@media screen and (min-width: 1200px) {
+}

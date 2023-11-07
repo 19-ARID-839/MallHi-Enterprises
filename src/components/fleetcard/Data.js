@@ -23,7 +23,7 @@ const Products = [
   {
     key: 3,
     image: revoimg,
-    name: "TOYOTA ALTIS GRANDE",
+    name: "ALTIS GRANDE",
     rating: "4.0/5 (+10)",
     description: "Rorem ipsum dolor sit amet, consectetur adipiscing elit.",
     user: 8,

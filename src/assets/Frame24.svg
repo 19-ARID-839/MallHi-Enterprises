@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ShieldWarning" clip-path="url(#clip0_1_197)">
+<g id="Group 24">
+<path id="Rectangle 12" d="M8.25 9.29993H24V43.7999L15 38.5499L8.25 30.2999V9.29993Z" fill="white"/>
+<path id="Vector" d="M7.5 21.5231V10.5C7.5 10.1022 7.65804 9.72064 7.93934 9.43934C8.22064 9.15804 8.60218 9 9 9H39C39.3978 9 39.7794 9.15804 40.0607 9.43934C40.342 9.72064 40.5 10.1022 40.5 10.5V21.5194C40.5 37.3031 27.1294 42.5325 24.4613 43.4194C24.1624 43.5225 23.8376 43.5225 23.5388 43.4194C20.8706 42.5363 7.5 37.3125 7.5 21.5231Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_197">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>
